@@ -1,0 +1,8 @@
+package com.tcs.Collections;
+
+public class Transaction {
+     int tid,investorId;
+     String tranDate;
+     double tranAmount;
+     
+}

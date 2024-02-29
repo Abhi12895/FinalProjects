@@ -1,0 +1,10 @@
+package com.tcs.ioc;
+
+//it supports  two types of injections
+//->Setter injection
+//->Constructor injection
+public class A {
+     public void method() {
+    	 System.out.println("from A()");
+     }
+}

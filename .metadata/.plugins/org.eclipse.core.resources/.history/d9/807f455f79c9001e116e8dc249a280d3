@@ -1,0 +1,19 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<title>Welcome</title>
+</head>
+
+<body>
+	<h1>Welcome to Springboot MVC</h1>
+	
+	<p th:text="${name}"></p><br>
+	
+	<p th:text="${mobile}"></p><br>
+	
+	<p th:text="${email}"></p><br>
+	
+</body>
+
+</html>

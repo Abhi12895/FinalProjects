@@ -1,0 +1,10 @@
+package com.tcs.webapp;
+
+
+@Controller
+public class WelcomeController {
+         public String method() {
+        	 
+             return "welcome";
+         }
+}

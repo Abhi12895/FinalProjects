@@ -1,0 +1,13 @@
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class TestBeans {
+
+	public static void main(String[] args) {
+		
+		ClassPathXmlApplicationContext context=new ClassPathXmlApplicationContext("beans.xml");
+		Object obj=context.getBean("b");
+		B b=(B)obj;
+
+	}
+
+}

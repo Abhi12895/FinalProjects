@@ -1,0 +1,7 @@
+package com.tcs.ioc;
+
+public class Radius {
+     Circle c;
+     double ans=c.area(8);
+     System.out.println(ans);
+}

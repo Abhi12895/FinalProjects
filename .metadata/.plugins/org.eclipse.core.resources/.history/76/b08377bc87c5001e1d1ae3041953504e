@@ -1,0 +1,6 @@
+package com.tcs.ioc;
+public class A {
+     public void method() {
+    	 
+     }
+}

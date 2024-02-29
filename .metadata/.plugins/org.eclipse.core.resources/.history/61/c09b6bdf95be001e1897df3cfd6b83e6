@@ -1,0 +1,35 @@
+package com.tcs.training;
+
+public class TestLoops {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int start=1,stop=100;
+		while(start<=stop) {
+			System.out.println("Run="+start);
+			start++;
+		}
+		for(start=1;start<=stop;start++) {
+			System.out.println("Run="+start);
+		
+		}
+		start=1;
+		for(stop=100;start<=stop;stop--) {
+			System.out.println("Run="+stop);
+		
+		}
+		stop=100;
+		for(start=1;start<=stop/2;start++) {
+			System.out.println("Run="+start);
+		}
+		for(start=1;start<=stop/2;start+=2) {
+			System.out.println("Run="+start);
+		}
+		for(start=1;start<=stop/2;) {
+			System.out.println(start+ ++start + ++start);
+			System.out.println(start);
+		}
+
+	}
+
+}

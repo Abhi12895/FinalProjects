@@ -1,0 +1,11 @@
+package com.tcs.Collections;
+
+public class PerformTransactions {
+
+	public static void main(String[] args) {
+		
+		Investor i1=new Investor(1, "abc", "chennai", "shares", 50000);
+
+	}
+
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<title>Registration Form</title>
+</head>
+
+<body>
+	<form method="post" action="/FormRegistrationController">
+		
+	  Enter Last Name<input type="text" name="lname"><br>
+	  
+	  Enter Mobile#<input type="text" name="mobile"><br>
+	  
+	  Enter Email<input type="email" name=""><br>
+	  
+	  <input type="submit"><input type="reset">
+	  
+	  
+		
+		
+	</form>		
+		
+		
+		
+	
+</body>
+
+</html>

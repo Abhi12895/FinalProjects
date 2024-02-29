@@ -1,0 +1,46 @@
+package com.tcs.Collections;
+
+import java.util.*;
+
+public class InvestmentTransactions {
+
+	ArrayList<Transaction> transactions =new ArrayList<>();
+	public boolean addTransaction(Transaction t) {
+		boolean flag=transactions.add(t);
+		return flag;
+	}
+	public void showTransactions() {
+		//System.out.println(transactions);
+		
+	    /*for(Transaction t:transactions) {
+	    	System.out.println(t);
+	    }*/
+		
+		Iterator<Transaction> iter =transactions.iterator();
+		while(iter.hasNext()) {
+			System.out.println(iter.next());
+		}
+		
+		
+	}
+	
+	public Transaction showGivenTransaction(int transactionId) {
+		for(Transaction t:transactions) {
+			if(t.getTid()==transactionId)
+	    	   return t;
+	    }
+		return null;
+	}
+	
+	public Transaction ChangeTransaction(int transactionId) {
+		
+		for(Transaction t:transactions) {
+			if(t.getTid()==transactionId) {
+	    	   t.setTranAmount(10000);
+	    	   System.out.println("Succesfully updated);
+	    	   return t;
+			}
+	    }
+		return null;
+	}
+}

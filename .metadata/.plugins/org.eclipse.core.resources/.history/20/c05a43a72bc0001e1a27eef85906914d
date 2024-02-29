@@ -1,0 +1,5 @@
+package com.tcs.threads;
+
+public class MyThread extends Thread {
+
+}

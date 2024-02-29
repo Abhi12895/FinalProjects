@@ -1,0 +1,18 @@
+package com.tcs.training;
+
+public class TestTypesVariables {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a=10,b=20;
+		int c =0;
+		if(a<10)
+			c=a+b;
+		if(a>=10)
+			c=a-b;
+			
+		System.out.println(c);
+
+	}
+   
+}

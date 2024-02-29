@@ -1,0 +1,20 @@
+package com.tcs.jdbc;
+
+import java.sql.DriverManager;
+
+public class FirstJdbc {
+
+	public static void main(String[] args) {
+		
+		//1.establish connection =(3) url,username,password of database.
+		//url="jdbc:mysql://localhost:3600:schemaname(or)dbname"
+		//2.create/obtain statement reference
+		//3.prepare SQL statement as string
+		//4.Execute statement
+		//5.Fetch results
+		
+		DriverManager.getConnection("jdbc:mysql://localhost:3306:");
+
+	}
+
+}

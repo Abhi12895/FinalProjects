@@ -1,0 +1,20 @@
+package com.tcs.boot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+@RestController
+@SpringBootApplication
+public class Day11SpringbootApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(Day11SpringbootApplication.class, args);
+	}
+	
+	@GetMapping
+	public String greetings() {
+		
+	}
+
+}

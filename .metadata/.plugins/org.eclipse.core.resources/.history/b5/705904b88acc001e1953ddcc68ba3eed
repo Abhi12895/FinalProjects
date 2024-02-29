@@ -1,0 +1,5 @@
+server.port=8888
+#//congif-server runs in 8888 port
+spring.cloud.config.server.git.uri=${user.home}/config-server
+
+management.security.enabled=false

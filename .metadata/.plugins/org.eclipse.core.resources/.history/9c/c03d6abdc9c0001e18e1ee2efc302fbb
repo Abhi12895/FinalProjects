@@ -1,0 +1,15 @@
+package com.tcs.Collections;
+
+import java.util.*;
+
+public class InvestmentTransactions {
+
+	ArrayList<Transaction> transactions =new ArrayList<>();
+	public boolean addTransaction(Transaction t) {
+		boolean flag=transactions.add(t);
+		return flag;
+	}
+	public void showTransactions() {
+		System.out.println(transactions);
+	}
+}

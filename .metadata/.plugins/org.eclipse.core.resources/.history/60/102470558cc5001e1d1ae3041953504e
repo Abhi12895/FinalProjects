@@ -1,0 +1,12 @@
+
+public class B {
+	
+     A a;//dependencies in spring not instances
+	 public void setA(A a) {
+		 
+		 this.a=a;
+	 }
+     public void other() {
+    	 a.method();
+     }
+}

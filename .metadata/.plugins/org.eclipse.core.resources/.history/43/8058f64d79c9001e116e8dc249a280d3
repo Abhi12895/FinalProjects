@@ -1,0 +1,15 @@
+<!DOCTYPE>
+<html>
+
+<head>
+	<title>Welcome</title>
+</head>
+
+<body>
+	<h1>Welcome to Springboot MVC</h1>
+	
+	<p th:text="${location}"></p><br>
+	<a href="registrationform.html"><h2>Register</h2></a>
+</body>
+
+</html>

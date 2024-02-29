@@ -1,0 +1,10 @@
+package com.tcs.ioc;
+
+public class Radius {
+     Circle c;
+     
+     public void other() {
+    	 c.area(7);
+     }
+     
+}
